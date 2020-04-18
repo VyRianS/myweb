@@ -10,14 +10,18 @@ body {
 	padding-right: 20px;
 }
 
-.publishing-date {
-	font-size: 14px;
-	font-style: italic;
-	color: red;
+.page-title {
+	text-transform: uppercase;
 }
 
 .article-title {
 	color: blue;
+}
+
+.publishing-date {
+	font-size: 14px;
+	font-style: italic;
+	color: red;
 }
 
 
