@@ -11,17 +11,24 @@ body {
 }
 
 .page-title {
+	font-family: Verdana, sans-serif;
 	text-transform: uppercase;
 }
 
 .article-title {
 	color: blue;
+	margin: 0px;
 }
 
 .publishing-date {
 	font-size: 14px;
 	font-style: italic;
 	color: red;
+	margin: 0px;
+}
+
+.section-title {
+	margin-top: 1.5em;  /* More space between paragraph and following section. */
 }
 
 
