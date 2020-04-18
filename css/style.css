@@ -4,7 +4,39 @@ body {
 }
 
 .authorship {
-	font-size: 5;
+	font-size: 14px;
 	text-align: left;
 	color: red;
+}
+
+
+/* Navigation bar */
+nav {
+	width: 100%;
+	background-color: #D6EFFF;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav li {
+	list-style-type: none;
+	margin: 0;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+	padding: 7px 14px;
+	font-family: monospace;
+	font-size: 20px;
+	font-weight: bold;
+	display: block;
+}
+
+nav a:hover {
+	background-color: #C6E9FF;
 }
