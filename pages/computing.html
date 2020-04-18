@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="/css/style.css"/>
+	<title>Computing</title>
+</head>
+<body>
+	<ul>
+		<li><a href="/index.html">Home</a></li>
+	</ul>
+	<h1>Computing</h1>
+
+	<h2>What is the Cloud?</h2>
+	<p>As the first official content post on this blog, I found it only fitting to give readers an introduction to the esoteric concept of Cloud Computing. There are a couple of important ideas to introduce before getting down to its proper description – let’s begin.</p>
+
+	<h3>Virtualization</h3>
+	<p>Virtualization means creating many isolated “instances” of an OS on the same server hardware. You can think of it as many OSes on top of an OS. The parent environment is known as the HOST machine, whilst each of the virtualized environments are called GUEST machines.</p>
+
+	<p>Each Guest machine (henceforth known as a Virtual Machine, or VM), is completely self-contained. E.g. I wouldn’t be able to distinguish any difference between the VM and a normal computing environment.</p>
+
+	<h3>Hypervisors</h3>
+	<p>Commodity computers can only host a couple of VMs at maximum, since all the VMs will be using the same underlying CPU/RAM/disk and fight for the shared resources. The enterprise level servers are designed at a hardware level to accommodate many VMs at once. This technology is called a Hypervisor, and is a layer just above the base computing hardware. With hundreds of CPUs, terabytes of RAM, and unparalleled I/O bandwidth, hundreds of VMs can operate on a single hypervisor node.</p>
+
+	<h3>Cloud</h3>
+	<p>The technologies above give rise to the CLOUD SERVICE.</p>
+
+	<p>Essentially, the largest public Cloud vendors (Amazon, Microsoft, & Google) have many datacentres around the world with thousands of these Hypervisor-capable servers installed. This allows each datacentre to host hundreds of thousands of customer VMs, which can be spun up at a moment’s notice.</p>
+
+	<p>During creation, your VM will usually be hosted at the datacentre closest to your geographical region for the lowest latency. Your VM is never physically tied to a single server – VMs can even be moved without interruption from one node in the hypervisor cluster to another! You can spin down (shutdown, not terminate) your VM overnight to save cost, and the server frees computing resource for another customer VM.  This makes the Cloud extremely SCALABLE – they simply buy more servers to serve more customers.</p>
+
+	<p>I’ve tried to keep this as brief as possible, and we’ve barely scraped the surface of Cloud technology. Hope you enjoyed the article!</p>
+</body>
+</html>
