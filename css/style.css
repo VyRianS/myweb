@@ -4,6 +4,7 @@ body {
 }
 
 .authorship {
+	font-weight: bold;
 	font-size: 8;
 	text-align: left;
 }
